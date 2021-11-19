@@ -5,7 +5,7 @@ const app = express();
 
 /// extra security packages
 const helmet = require('helmet');
-const cros = require('cros')
+const cros = require('cors')
 const xss = require('xss-clean')
 const rateLimiter = require('express-rate-limit')
 
